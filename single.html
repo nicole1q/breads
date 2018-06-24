@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>single</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script src="js/imagezoom.js"></script>
+<!-- //js -->
+<!-- cart -->
+<script src="js/simpleCart.min.js"> </script>
+<!-- cart -->
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+	  });
+	});
+</script>
+<!--//FlexSlider -->
+</head>
+<body>
+<!--header-->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1 class="navbar-brand"><a href="index.html">酵你吃</a></h1>
+				</div>
+				<!--navbar-header-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html" class="dropdown-toggle">首页</a></li>
+						<li class="dropdown">
+							<a href="products.html" class="active">面包<b class="caret"></b></a>
+							
+						</li>
+					   <li class="dropdown grid">
+							<a href="products.html" class="dropdown-toggle list1">饮品<b class="caret"></b></a>
+							
+						</li>				
+						
+														
+					</ul> 
+					<!--/.navbar-collapse-->
+				</div>
+				<!--//navbar-header-->
+			</nav>
+			<div class="header-info">
+				<div class="header-right login">
+					<a href="single.html#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+					<div id="loginBox">                
+						<form id="loginForm">
+							<fieldset id="body">
+								<fieldset>
+									<label for="email">姓名</label>
+									<input type="text" name="name" id="name">
+								</fieldset>
+								<fieldset>
+									<label for="password">配送地址</label>
+									<input type="text" name="add" id="add">
+								</fieldset>
+								<fieldset>
+									<label for="password">联系电话</label>
+									<input type="text" name="phone" id="phone">
+								</fieldset>
+								<input type="submit" id="login" value="确认">
+								<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+							</fieldset>
+							
+						</form>
+					</div>
+				</div>
+				
+				<div class="header-right cart">
+					<a href="index.html#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+					<div class="cart-box">
+						<h4><a href="checkout.html">
+							<span class="simpleCart_total">$9.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">1</span>) 
+						</a></h4>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-->
+	<!--//single-page-->
+	<div class="single">
+		<div class="container">
+			<div class="single-grids">				
+				<div class="col-md-4 single-grid">		
+					<div class="flexslider">
+						<ul class="slides">
+							<li data-thumb="images/s1.png">
+								<div class="thumb-image"> <img src="images/s1.png" data-imagezoom="true" class="img-responsive"> </div>
+							</li>
+							<li data-thumb="images/s1.png">
+								 <div class="thumb-image"> <img src="images/s1.png" data-imagezoom="true" class="img-responsive"> </div>
+							</li>
+							<li data-thumb="images/s1.png">
+							   <div class="thumb-image"> <img src="images/s1.png" data-imagezoom="true" class="img-responsive"> </div>
+							</li> 
+						</ul>
+					</div>
+				</div>	
+				<div class="col-md-4 single-grid simpleCart_shelfItem">		
+					<h3>虹之间</h3>
+					<p>虹之间面包使用了七种颜色的食用材料，分别为：草莓、橙子、香蕉、抹茶、青苹果、蓝莓、紫薯，不仅在视觉上有冲击力，而且还可以营造吃甜品时候的良好心情。</p>
+					<ul class="size">
+						<h3>建议搭配</h3>
+							<li><a href="single.html#">春风十里</a></li>
+							<li><a href="single.html#">夏至未至</a></li>
+							<li><a href="single.html#">秋日私语</a></li>
+							<li><a href="single.html#">冬季恋歌</a></li>
+					</ul>
+					
+					<div class="galry">
+						<div class="prices">
+							<h5 class="item_price">9.00</h5>
+						</div>
+						<div class="rating">
+							<span>☆</span>
+							<span>☆</span>
+							<span>☆</span>
+							<span>☆</span>
+							<span>☆</span>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<p class="qty"> Qty :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
+					<div class="btn_form">
+						<a href="single.html#" class="add-cart item_add">ADD TO CART</a>	
+					</div>
+					<div class="tag">
+						<p>Category : <a href="single.html#"> Breads</a></p>
+						<p>Tag : <a href="single.html#"> 虹之间 </a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- collapse -->
+	<div class="collpse tabs">
+		<div class="container">
+			<div class="panel-group collpse" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="single.html#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  产品介绍
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							采用覆盖于谷物和果实上的天然酵母进行发酵，从揉面、冷藏到烘焙，注重工艺。搭配新鲜水果，是面包具有自然独特的风味和口感。纯天然酵母可以延长产品保质期、保持新鲜度、增加营养价值，方便存储、运输和食用。
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="single.html#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							   制作过程
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							在面粉中添加天然酵母、鸡蛋和馅料，揉好面团，待72个小时的低温发酵，让面团君充分享受发酵的惬意过程，慢慢的，面团变得细腻柔软、富有弹性。第二次高温发酵，面团慢慢“长大”，放入烤箱烘烤，耐心等待后，一股浓浓的北海道牛奶香味在鼻尖盘旋。
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="single.html#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								顾客评价
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div class="panel-body">
+							“非常软，口感也很像蛋糕，闻起来会有股淡淡的酒香。”白领小美每天早上上班，都会买一个酵母面包，再配上一杯果酵时光。
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingFour">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="single.html#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								营养信息
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						<div class="panel-body">
+							（每100克）热量：325卡路里，碳水化合物：42.50克，脂肪：12.50克，蛋白质：6.25克。
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//collapse -->
+	
+	<div class="footer-bottom">
+		<div class="container">
+			<p style="font-size:18px; letter-spacing:8px;">天然酵母面包，放心吃、轻松瘦</p>
+		</div>
+	</div>
+</body></html>

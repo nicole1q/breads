@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- //js -->	
+<!-- cart -->
+<script src="js/simpleCart.min.js"> </script>
+<!-- cart -->
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+<!-- //the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<!-- the mousewheel plugin -->		
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1 class="navbar-brand"><a href="index.html">酵你吃</a></h1>
+				</div>
+				<!--navbar-header-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html" class="dropdown-toggle list1">首页</a></li>
+						<li class="dropdown">
+							<a href="products.html" class="active">面包<b class="caret"></b></a>
+							
+						</li>
+					   <li class="dropdown grid">
+							<a href="products.html" class="dropdown-toggle list1">饮品<b class="caret"></b></a>
+							
+						</li>				
+						
+														
+					</ul> 
+					<!--/.navbar-collapse-->
+				</div>
+				<!--//navbar-header-->
+			</nav>
+			<div class="header-info">
+				<div class="header-right login">
+					<a href="products.html#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+					<div id="loginBox">                
+						<form id="loginForm">
+							<fieldset id="body">
+								<fieldset>
+									<label for="email">姓名</label>
+									<input type="text" name="name" id="name">
+								</fieldset>
+								<fieldset>
+									<label for="password">配送地址</label>
+									<input type="text" name="add" id="add">
+								</fieldset>
+								<fieldset>
+									<label for="password">联系电话</label>
+									<input type="text" name="phone" id="phone">
+								</fieldset>
+								<input type="submit" id="login" value="确认">
+								<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+							</fieldset>
+							
+						</form>
+					</div>
+				</div>
+				
+				<div class="header-right cart">
+					<a href="index.html#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+					<div class="cart-box">
+						<h4><a href="checkout.html">
+							<span class="simpleCart_total">$2,009.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">2</span>) 
+						</a></h4>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-->
+	<!--products-->
+	<div class="products">	 
+		<div class="container">
+			<h2>Our Products</h2>			
+			<div class="col-md-9 product-model-sec">
+				<div class="product-grid">
+					<a href="single.html">				
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/133.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+								<h4 class="b-animate b-from-left  b-delay03">							
+									<button>View</button>
+								</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>虹之间</h4>								
+							<span class="item_price">9.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>												
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/113.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button>View</button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>橘子酱</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>						
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/115.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>春意盎然</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>						
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/130.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>红豆相思</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>							
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/127.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>三色光</h4>								
+							<span class="item_price">12.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>							
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/136.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>粉红甜心</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>						
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/137.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>春风十里</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>						
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/138.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>夏至未至</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>							
+					</div>
+				</div>
+				<div class="product-grid">
+					<a href="single.html">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="./images/139.jpg" class="img-responsive" alt="">
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button> View </button>
+							</h4>
+							</div>
+						</div>
+					</a>				
+					<div class="product-info simpleCart_shelfItem">
+						<div class="product-info-cust prt_name">
+							<h4>秋日私语</h4>								
+							<span class="item_price">7.00</span>
+							<input type="text" class="item_quantity" value="1">
+							<input type="button" class="item_add items" value="Add">
+							<div class="clearfix"> </div>
+						</div>						
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-3 rsidebar span_1_of_left">
+				<section  class="sky-form">
+					<div class="product_right">
+						<h4 class="m_2"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>产品目录</h4>
+						<div class="tab1">
+							<ul class="place">								
+								<li class="sort">面包</li>
+								<li class="by"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></li>								
+							</ul>
+							<div class="clearfix"> </div>
+							<div class="single-bottom">						
+								<a href="#"><p>单品</p></a>
+								<a href="#"><p>多彩系列</p></a>
+								
+						    </div>
+					    </div>						  
+						<div class="tab2">
+							<ul class="place">								
+								<li class="sort">饮品</li>
+								<li class="by"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></li>
+							</ul>
+							<div class="clearfix"> </div>
+							<div class="single-bottom">						
+								<a href="#"><p>果酵时光</p></a>
+															
+						    </div>
+					    </div>
+						
+						<!--script-->
+						<script>
+							$(document).ready(function(){
+								$(".tab1 .single-bottom").hide();
+								$(".tab2 .single-bottom").hide();
+								$(".tab3 .single-bottom").hide();
+								$(".tab4 .single-bottom").hide();
+								$(".tab5 .single-bottom").hide();
+								
+								$(".tab1 ul").click(function(){
+									$(".tab1 .single-bottom").slideToggle(300);
+									$(".tab2 .single-bottom").hide();
+									$(".tab3 .single-bottom").hide();
+									$(".tab4 .single-bottom").hide();
+									$(".tab5 .single-bottom").hide();
+								})
+								$(".tab2 ul").click(function(){
+									$(".tab2 .single-bottom").slideToggle(300);
+									$(".tab1 .single-bottom").hide();
+									$(".tab3 .single-bottom").hide();
+									$(".tab4 .single-bottom").hide();
+									$(".tab5 .single-bottom").hide();
+								})
+								$(".tab3 ul").click(function(){
+									$(".tab3 .single-bottom").slideToggle(300);
+									$(".tab4 .single-bottom").hide();
+									$(".tab5 .single-bottom").hide();
+									$(".tab2 .single-bottom").hide();
+									$(".tab1 .single-bottom").hide();
+								})
+								$(".tab4 ul").click(function(){
+									$(".tab4 .single-bottom").slideToggle(300);
+									$(".tab5 .single-bottom").hide();
+									$(".tab3 .single-bottom").hide();
+									$(".tab2 .single-bottom").hide();
+									$(".tab1 .single-bottom").hide();
+								})	
+								$(".tab5 ul").click(function(){
+									$(".tab5 .single-bottom").slideToggle(300);
+									$(".tab4 .single-bottom").hide();
+									$(".tab3 .single-bottom").hide();
+									$(".tab2 .single-bottom").hide();
+									$(".tab1 .single-bottom").hide();
+								})	
+							});
+						</script>
+						<!--//script -->	
+					</div>
+				</section>
+					 
+			</div>
+				
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//products-->
+	<div class="footer-bottom">
+		<div class="container">
+			<p style="font-size:18px; letter-spacing:8px;">天然酵母面包，放心吃、轻松瘦</p>
+		</div>
+	</div>
+
+</body></html>
